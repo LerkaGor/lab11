@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	<a-scene>
+    <a-light color="white" position="0 0 500000"></a-light>
+    <a-sky color="black" scale="-9 9 9" ></a-sky>
+    <a-camera position="0 0 5" cursor-visible="true" cursorscale="2" cursor-color="#0095DD" cursor-opacity="0.5"></a-camera>
+	<a-sphere radius: 60000 rotation="0 0 27" material="src: https://live.staticflickr.com/65535/52054244854_0d025c21da_b.jpg" animation="property: rotation; to: 0 387 27; dur: 2000; easing: linear; loop: true"></a-sphere>
+    <a-ring radius-inner: 74500 radius-outer:137000 rotation="63 90 0" material="src: https://live.staticflickr.com/65535/52054244854_0d025c21da_b.jpg" animation="property: rotation; to: 63 450 0; dur: 2000; easing: linear; loop: true"></a-entity>
+    <a-entity main></a-entity>
+</a-scene>
+</html>
